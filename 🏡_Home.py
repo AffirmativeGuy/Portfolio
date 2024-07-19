@@ -31,6 +31,6 @@ cols = st.columns(len(socials))
 for index, (platform, link) in enumerate(socials.items()):
     cols[index].write(f"[{platform}]({link})")
 
-css = "F:\Portfolio\styles\main.css"
+css = "styles/main.css"
 with open(css) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
