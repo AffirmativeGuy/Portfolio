@@ -45,6 +45,9 @@ st.sidebar.html('''<h3 align="left">My Socials:</h3>
 <a href="https://www.youtube.com/c/https://www.youtube.com/@affirmativeguy" target="blank"><img align="center" src="https://cdn.simpleicons.org/youtube" alt="YouTube" height="50" width="60" /></a> 
 <a href="https://discord.com/invite/WYXqMxnsqa"> <img align="center", src="https://skillicons.dev/icons?i=discord", alt="https://discord.com/invite/WYXqMxnsqa"</p>
 ''')
+st.sidebar.html('''
+        <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=995&color=FF0000&center=true&multiline=true&random=false&width=435&lines=........." alt="Typing SVG" /></a></h1>
+''')
 css = "styles/main.css"
 with open(css) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
