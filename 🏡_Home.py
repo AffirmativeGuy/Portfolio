@@ -22,7 +22,7 @@ hide_default_format = """
 
 st.markdown(hide_default_format, unsafe_allow_html=True)
 
-footer = """<style>.footer {position: fixed;left: 0;bottom: 0;width: 100%;text-align: center;}</style><div class='footer'><p>Devloped with 💖 by AffirmativeGuy.</p></div>"""
+footer = """<style>.footer {position: fixed;left: 0;bottom: 0;width: 100%;text-align: center;}</style><div class='footer'><p>Developed with 💖 by AffirmativeGuy.</p></div>"""
 st.markdown(footer, unsafe_allow_html=True)
 
 st.title("🎈 About Me")

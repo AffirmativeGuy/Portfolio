@@ -16,45 +16,21 @@ st.markdown(footer, unsafe_allow_html=True)
 
 
 st.title("💀 Projects")
-st.write("This page shows all of my repos(projects) which I have made, you can either click on he tabs to get some detailed info about the repos or just click 'Show All' to see all of the repos line-by-line.")
-cogs = '[![Affirmative-Cogs](https://github-readme-stats.vercel.app/api/pin/?username=AffirmativeGuy&repo=affirmative-cogs&show_owner=true&theme=tokyonight)](https://github.com/AffirmativeGuy/affirmative-cogs)'
-portfolio = '[![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=AffirmativeGuy&repo=Portfolio&show_owner=true&theme=tokyonight)](https://github.com/AffirmativeGuy/Portfolio)'
-simp_calc = '[![Simp Calculator](https://github-readme-stats.vercel.app/api/pin/?username=AffirmativeGuy&repo=Simp-Calculator&show_owner=true&theme=tokyonight)](https://github.com/AffirmativeGuy/Simp-Calculator)'
+st.write('''This page shows all of my repos(projects) which I have made. These all mainly consist of Python since I am currently learning Python. There is not much projects in my github since I am a beginner.
+         Thanks for viewing my projects page.''')
 
-cog, website, calc, show_all = st.tabs(["Cogs", "Portfolio", "Calculator", "Show all"])
+st.html('''<p align="right">
+    <a href="https://github.com/AffirmativeGuy/affirmative-cogs"><img width="500" src="https://stats-cop.vercel.app/api/pin/?username=AffirmativeGuy&repo=affirmative-cogs&theme=tokyonight" alt="Affirmative-Cogs"></a>
+    </p>
+        ''')
 
-with cog:
-   st.header("Affirmative-Cogs")
-   st.caption("These are some of my cogs made by me for my discord bot based on the Red-Discord-Bot. This cog includes commands such as a custom made info command, credits command, ping, uptime etc")
-   st.write(cogs)
+st.html('''<p align="left">
+    <a href="https://github.com/AffirmativeGuy/Simp-Calculator"><img width="500" src="https://stats-cop.vercel.app/api/pin/?username=AffirmativeGuy&repo=Simp-Calculator&theme=tokyonight" alt="Simp Calc"></a>
+    </p>''')
 
-with website:
-   st.header("Portfolio")
-   st.caption("This is my self-made portfolio's source code which is based on streamlit library in the python language. This website includes pages such as blogs, about me and projects. Which is updated frequently based on my liking.")
-   st.write(portfolio)
-
-with calc:
-   st.header("Simple Calculator")
-   st.caption("A simple terminal based calculator which can multiply, divide, add(💀), subtract and finally it can give power of any number it was made by me as a part of practical based learning.")
-   st.write(simp_calc)
-
-with show_all:
- with st.container():
-  st.header("Projects")
-  st.write("### Affirmative-Cogs")
-  st.write(cogs)
-
-  st.write("### Portfolio")
-  st.write(portfolio)
-
-  st.write("### Simp-Calculator")
-  st.write(simp_calc)
-
-
-
-
-# Adapted from the the official streamlit docs
-
+st.html('''<p align="right">
+        <a href="https://github.com/AffirmativeGuy/Portfolio"><img width="500" src="https://stats-cop.vercel.app/api/pin?username=AffirmativeGuy&repo=Portfolio&theme=tokyonight" alt="Portfolio"></a>
+        </p>''')
 
 x = st.sidebar.selectbox(
     'Wish to connect?',
