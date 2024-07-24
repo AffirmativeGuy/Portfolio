@@ -49,7 +49,15 @@ else:
 # Thanks to coding is fun for this part of code
 
 
-
+st.html('''<h3 align="left">Languages and Tools I'm Tinkering With:</h3>
+<p align="left">
+  <a href="https://discord.com/invite/WYXqMxnsqa">
+    <img src="https://skillicons.dev/icons?i=git,go,py,vscode,arch,github&perline=3&theme=dark" />
+  </a>
+</p>''')
+st.write('''### ❄️ Quote
+[![Quote](https://quotes-github-readme.vercel.app/api?theme=catppuccin_mocha&type=horizontal&quote=To%20Be%20The%20Best%20You%20Have%20To%20Work%20Hard,%20But%20To%20Be%20The%20Worst%20You%20Don't.&author=AffirmativeGuy)](https://youtu.be/dQw4w9WgXcQ?si=eoehQUYaFQwPM-Rh)
+''')
 st.write('\n')
 cols = st.columns(len(socials))
 for index, (platform, link) in enumerate(socials.items()):
