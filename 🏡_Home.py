@@ -26,6 +26,9 @@ footer = """<style>.footer {position: fixed;left: 0;bottom: 0;width: 100%;text-a
 st.markdown(footer, unsafe_allow_html=True)
 
 st.title("🐱‍🚀 About Me")
+st.html('''
+        <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=995&color=FF0000&center=true&multiline=true&random=false&width=435&lines=Hi+%F0%9F%91%8B%F0%9F%8F%BB%2C+I'm+Arnav+Singh." alt="Typing SVG" /></a></h1>
+''')
 st.write(
     "Hi there 👋🏻! I'm Arnav Singh a random tech-savvy teenager from India lost in the world of computers. I love spending my leisure time in learning or making(tinkering most of the time) projects in Python."
 )
