@@ -69,7 +69,7 @@ st.sidebar.write("""### 🍜 My Discord Profile
 [![Discord Presence](https://lanyard.cnrad.dev/api/1064034452893863966)](https://discord.com/users/1064034452893863966)""")
 st.sidebar.html('''<h3 align="left">My Socials:</h3>
 <p align="left">
-<a href="https://www.youtube.com/c/https://www.youtube.com/@affirmativeguy" target="blank"><img align="center" src="https://cdn.simpleicons.org/youtube" alt="YouTube" height="50" width="60" /></a> 
+<a href="https://www.youtube.com/@affirmativeguy" target="blank"><img align="center" src="https://cdn.simpleicons.org/youtube" alt="YouTube" height="50" width="60" /></a> 
 <a href="https://discord.com/invite/WYXqMxnsqa"> <img align="center", src="https://skillicons.dev/icons?i=discord", alt="https://discord.com/invite/WYXqMxnsqa"</p>
 ''')
 
